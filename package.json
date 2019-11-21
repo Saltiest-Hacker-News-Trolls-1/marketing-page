@@ -1,0 +1,20 @@
+{
+  "name": "marketingPage2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saltiest-Hacker-News-Trolls-1/marketing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saltiest-Hacker-News-Trolls-1/marketing-page/issues"
+  },
+  "homepage": "https://github.com/Saltiest-Hacker-News-Trolls-1/marketing-page#readme"
+}
