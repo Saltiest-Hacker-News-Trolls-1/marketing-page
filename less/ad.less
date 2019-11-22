@@ -1,33 +1,46 @@
 //Ad page
+.advh1 {
+    display: block;
+    width: 250px;
+    margin: 20px auto;
+}
 
-.adPageImg {
-    .display-flx(column, space-evenly, center);
-    width: 85%;
-    margin: 0 auto;
-    img {
-      width: 60%;
-      margin: 4% 0;
+.helmet-logo {
+  width: 300px;
+  margin: 20 auto;
+}
+
+.helmet-logo-container {
+  width: 100%;
+  .display-flx(row, center, center);
+}
+
+.ad-container {
+  .display-flx(column, space-around, center);
+  padding: 30px 30px;
+  // .adv-section {
+  //     .display-flx(row, space-around, center);
+  //     width: 90%;
+  //     margin: 20px auto;
+  // }
+  .adv-section {
+    .display-flx(row, space-around, center);
+    .ad-img-container {
+      width: 400px;
+    }
+    .text {
+        padding: 20px;
+      width: 300px;
     }
   }
-  
-  .adPageMain {
-    .display-flx(column, center, left);
-    margin: 2% 12% 0 12%;
-    h2 {
-      font-size: calc(1em + 1.2vw);
-      font-weight: bold;
-    }
-    p {
-      font-size: calc(1em + 0.5vw);
-      text-align: justify;
-      font-style: italic;
-      margin-bottom: 2%;
-    }
-    ul {
-      list-style-type: square;
-      list-style-position: inside;
-    }
-    li:last-child {
-      margin-bottom: 10%;
-    }
+  .reverse {
+    .display-flx(row-reverse, space-around, center);
   }
+}
+
+.ad-img-container {
+  width: 400px;
+  height img {
+    width: 400px;
+  }
+}
