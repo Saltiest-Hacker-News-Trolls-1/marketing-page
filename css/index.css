@@ -191,28 +191,96 @@ nav a {
   width: 500px;
   margin: 0 auto;
 }
-.aboutContent {
+.about-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
-  margin: 5% 12% 0 12%;
+  align-items: start;
+  padding: 30px 30px;
 }
-.aboutContent h2 {
-  font-size: calc(3em);
+.about-container .data-team {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+}
+.about-container .webdev-team {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+}
+.about-container img {
+  width: 200px;
+}
+.about-container h2 {
   font-weight: bold;
 }
-.aboutContent p {
-  font-size: calc(1.8em);
-  text-align: justify;
+.about-container .person {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
-.aboutContent ul {
+.about-container p {
+  line-height: 15px;
+  width: 200px;
+  text-align: center;
+}
+.about-container ul {
   list-style-type: square;
   list-style-position: inside;
 }
-.aboutContent li {
+.about-container li {
   font-size: calc(1.8em);
   text-align: justify;
+}
+@media (max-width: 1050px) {
+  .about-container .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@media (max-width: 1050px) {
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+.models {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.models img {
+  width: 500px;
+}
+.model-img-container {
+  margin: 0 auto;
+}
+.model-img-container img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 main {
   margin-bottom: 10%;
