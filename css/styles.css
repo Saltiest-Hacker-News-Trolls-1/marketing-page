@@ -181,6 +181,9 @@ nav a {
   text-align: justify;
   font-size: calc(1em + 1vw);
 }
+.leaderboardTwo {
+  display: none;
+}
 h1 {
   font-size: calc(1em + 3vw);
   font-weight: bold;
@@ -260,14 +263,15 @@ main {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 70%;
+    width: 100%;
   }
   .leaderboardImg {
     margin: 0% auto;
-    padding: 10% 0;
+    padding: 5% 0;
   }
   .homePara {
-    width: 60%;
+    width: 80%;
+    margin-right: 10%;
   }
   .homePara p {
     font-size: calc(1em + 0.5vw);
