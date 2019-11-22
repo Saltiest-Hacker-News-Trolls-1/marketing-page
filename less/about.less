@@ -1,0 +1,72 @@
+.mine-logo-container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.about-container {
+  .display-flx(column, center, start);
+  padding: 30px 30px;
+  .data-team {
+    margin: 20px auto;
+    .display-flx(row, space-around, center);
+    width: 90%;
+  }
+  .webdev-team {
+    margin: 20px auto;
+    .display-flx(row, space-around, center);
+    width: 90%;
+  }
+  img {
+    width: 200px;
+  }
+
+  h2 {
+    font-weight: bold;
+  }
+  .person {
+    .display-flx(column, space-between, center);
+  }
+  p {
+    line-height: 15px;
+    width: 200px;
+    text-align: center;
+  }
+  ul {
+    list-style-type: square;
+    list-style-position: inside;
+  }
+  li {
+    font-size: calc(1em + 0.8vw);
+    text-align: justify;
+  }
+  .section {
+    @media @tablet {
+      .display-flx(column, space-around, center);
+    }
+  }
+  @media @tablet {
+    .display-flx(row, space-around, center);
+  }
+  @media @mobile {
+    .display-flx(column, space-around, center);
+
+  }
+}
+
+.models {
+  margin: 20px 0;
+  .display-flx(row, center, center);
+  img {
+    width: 500px;
+  }
+}
+.model-img-container {
+  margin: 0 auto;
+}
+.model-img-container img {
+  .display-flx(row, center, center);
+}
+
+main {
+  margin-bottom: 10%;
+}
